@@ -1,0 +1,25 @@
+---
+import FormShortenURL from './FormShortenURL'
+---
+
+<section
+  class="relative overflow-hidden rounded-xl border border-slate-800 p-[1px] backdrop-blur-3xl"
+>
+  <span
+    class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+  ></span>
+
+  <div
+    class="h-full w-full rounded-xl bg-black font-medium text-white backdrop-blur-3xl space-y-8 px-4 py-6"
+  >
+    <h2 class="text-2xl text-center font-bold mb-4">
+      Pegue la URL que desea acortar
+    </h2>
+    <FormShortenURL client:load />
+    <p class="text-center text-balance">
+      ShortenerURL es una herramienta gratuita para acortar URL y generar
+      enlaces cortos. El acortador de URL permite crear un enlace acortado que
+      facilita compartirlo.
+    </p>
+  </div>
+</section>

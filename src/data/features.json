@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Fácil",
+    "description": "ShortenerURL es fácil y rápido, ingrese el enlace largo para obtener su enlace acortado",
+    "icon": "/icons/easy.svg"
+  },
+  {
+    "title": "Acortado",
+    "description": "Utilice cualquier enlace, no importa el tamaño, ShortenerURL siempre se acorta",
+    "icon": "/icons/shortened.svg"
+  },
+  {
+    "title": "Seguro",
+    "description": "Es rápido y seguro, nuestro servicio cuenta con protocolo HTTPS y cifrado de datos.",
+    "icon": "/icons/secure.svg"
+  },
+  {
+    "title": "Dispositivos",
+    "description": "Compatible con teléfonos inteligentes, tabletas y computadoras de escritorio",
+    "icon": "/icons/devices.svg"
+  }
+]
