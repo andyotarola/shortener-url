@@ -1,0 +1,13 @@
+---
+import { getShortenURL } from '@/db/client'
+
+const { shortURL } = Astro.params
+
+const result = await getShortenURL(shortURL as string)
+
+if (result == null) {
+  return Astro.redirect('/')
+}
+
+return Astro.redirect(result.shorten_url)
+---

@@ -1,6 +1,7 @@
 ---
 import Footer from '@/components/Footer.astro'
 import Header from '@/components/Header.astro'
+import '@fontsource-variable/onest'
 import { Toaster } from 'sonner'
 
 interface Props {
@@ -21,7 +22,7 @@ const { title } = Astro.props
     <title>{title}</title>
   </head>
   <body>
-    <Toaster client:load />
+    <Toaster client:load position="top-right" />
     <Header />
     <main class="max-w-screen-md mx-auto px-4 py-6">
       <slot />
@@ -43,20 +44,9 @@ const { title } = Astro.props
     );
   }
   html {
-    font-family: system-ui, sans-serif;
+    font-family: 'Onest Variable', sans-serif;
     background: #13151a;
     background-size: 224px;
-  }
-  code {
-    font-family:
-      Menlo,
-      Monaco,
-      Lucida Console,
-      Liberation Mono,
-      DejaVu Sans Mono,
-      Bitstream Vera Sans Mono,
-      Courier New,
-      monospace;
   }
 
   section:has(+ section) {
