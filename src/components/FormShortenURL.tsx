@@ -95,7 +95,7 @@ const FormShortenURL = () => {
               <span>Acortar URL</span>
             </div>
           </button>
-          <DialogContent className="sm:max-w-md">
+          <DialogContent className="sm:max-w-xl">
             <DialogHeader>
               <DialogTitle>Compartir URL</DialogTitle>
             </DialogHeader>
